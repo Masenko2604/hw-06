@@ -46,7 +46,11 @@
             </li>
           </ul>
         </nav>
-
+        <button class="btn-menu-open" data-menu-open >
+          <svg class="icon-menu-open" width="32" height="22">
+            <use href="./images/icons.svg#menu-hamburger"></use>
+          </svg>
+        </button>
         <address class="header-address">
           <ul class="list address-list">
             <li class="header-address-list">
@@ -66,11 +70,59 @@
           </ul>
         </address>
       </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container">
+          <button class="btn-menu-close" data-menu-close>
+            <svg width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+            </svg>
+          </button>
+        <ul class="mob-nav-list">
+          <li class="mob-nav-item"><a href="./index.html" class="mob-nav-link">Studio</a></li>
+          <li class="mob-nav-item"><a href="./portfolio.html" class="mob-nav-link">Portfolio</a></li>
+          <li class="mob-nav-item"><a href="Contacts" class="mob-nav-link">Contacts</a></li>
+        </ul>
+        <ul class="mob-contact-list">
+          <li><a href="./tel:+110001111111" class="mob-contact-link">+11 (000) 111-11-11</a></li>
+          <li><a href="./mailto:info@devstudio.com." class="mob-contact-link">info@devstudio.com</a></li>
+        </ul>
+        <ul class="mob-soc-list">
+          <li class="mob-soc-item">
+            <a href="" class="mob-soc-link" width="8" height="8">
+              <svg class="mob-soc-icon">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-soc-item">
+            <a href="" class="mob-soc-link" width="8" height="8">
+              <svg class="mob-soc-icon">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-soc-item">
+            <a href="" class="mob-soc-link" width="8" height="8">
+              <svg class="mob-soc-icon">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-soc-item">
+            <a href="" class="mob-soc-link" width="8" height="8">
+              <svg class="mob-soc-icon">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        </div>
+      </div>
     </header>
 
     <main>
       <!--Hero section-->
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button
@@ -82,9 +134,9 @@
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
       <!--Indicators section-->
-      <section class="indicators-section-list">
+      <!-- <section class="indicators-section-list">
         <div class="container">
           <h2 class="visually-hidden">Indicators</h2>
           <ul class="list indicators-list">
@@ -143,10 +195,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!--We are doing-->
-      <section class="doing">
+      <!-- <section class="doing">
         <div class="container">
           <h2 class="list-doing-title">What are we doing</h2>
           <ul class="list doing-list-list">
@@ -180,10 +232,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!--Team card-->
-      <section class="team">
+      <!-- <section class="team">
         <div class="container team-card-container">
           <h2 class="team-title-list">Our Team</h2>
           <ul class="list team-list">
@@ -368,11 +420,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- customers-section -->
 
-      <section class="customers-section-link">
+      <!-- <section class="customers-section-link">
         <div class="container customers-section-container">
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-link-icon list">
@@ -420,12 +472,12 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!--Footer section-->
 
-    <footer class="footer-finish">
+    <!-- <footer class="footer-finish">
       <div class="footer-content container">
         <div class="footer-logo-text">
           <a class="footer-logo-link link" href="./index.html"
@@ -469,7 +521,7 @@
             </li>
           </ul>
         </div>
-        <!-- Footer form -->
+        
         <div class="footer-subscribe container">
           <p class="subscribe-position">Subscribe</p>
           <form class="footer-form" name="subscribe-form">
@@ -491,10 +543,10 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- Modal window -->
-    <div class="backrop is-hidden" data-modal>
+    <!-- <div class="backrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-btn-icon" width="8" height="8">
@@ -503,7 +555,7 @@
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
 
-        <!-- NAME -->
+       
         <form class="modal-form" name="modal-window">
           <div class="window-form">
             <label for="user-name" class="modal-form-agrement">Name</label>
@@ -521,7 +573,7 @@
             </div>
           </div>
 
-          <!-- PHONE -->
+          
 
           <div class="window-form">
             <label for="user-name" class="modal-form-agrement">Phone</label>
@@ -539,7 +591,7 @@
             </div>
           </div>
 
-          <!-- EMAIL -->
+      
 
           <div class="window-form">
             <label for="user-name" class="modal-form-agrement">Email</label>
@@ -556,7 +608,7 @@
             </div>
           </div>
 
-          <!-- Comment -->
+         
           <div class="window-form-coment">
             <label for="user-comment" class="modal-form-agrement"
               >Comment</label
@@ -591,7 +643,8 @@
           <button class="btn button-modal-btn" type="button">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
+   <script src="./js/mobaie-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
