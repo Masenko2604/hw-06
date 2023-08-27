@@ -77,39 +77,39 @@
               <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
             </svg>
           </button>
-        <ul class="mob-nav-list">
-          <li class="mob-nav-item"><a href="./index.html" class="mob-nav-link">Studio</a></li>
-          <li class="mob-nav-item"><a href="./portfolio.html" class="mob-nav-link">Portfolio</a></li>
-          <li class="mob-nav-item"><a href="Contacts" class="mob-nav-link">Contacts</a></li>
+        <ul class="mob-nav-list list">
+          <li class="mob-nav-item"><a href="./index.html" class="mob-nav-link link">Studio</a></li>
+          <li class="mob-nav-item"><a href="./portfolio.html" class="mob-nav-link link">Portfolio</a></li>
+          <li class="mob-nav-item"><a href="Contacts" class="mob-nav-link link">Contacts</a></li>
         </ul>
-        <ul class="mob-contact-list">
+        <ul class="mob-contact-list list">
           <li><a href="./tel:+110001111111" class="mob-contact-link">+11 (000) 111-11-11</a></li>
           <li><a href="./mailto:info@devstudio.com." class="mob-contact-link">info@devstudio.com</a></li>
         </ul>
-        <ul class="mob-soc-list">
+        <ul class="mob-soc-list list">
           <li class="mob-soc-item">
-            <a href="" class="mob-soc-link" width="8" height="8">
+            <a href="" class="mob-soc-link link" width="16" height="16">
               <svg class="mob-soc-icon">
                 <use href="./images/icons.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li class="mob-soc-item">
-            <a href="" class="mob-soc-link" width="8" height="8">
+            <a href="" class="mob-soc-link" width="16" height="16">
               <svg class="mob-soc-icon">
                 <use href="./images/icons.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
           <li class="mob-soc-item">
-            <a href="" class="mob-soc-link" width="8" height="8">
+            <a href="" class="mob-soc-link" width="16" height="16">
               <svg class="mob-soc-icon">
                 <use href="./images/icons.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li class="mob-soc-item">
-            <a href="" class="mob-soc-link" width="8" height="8">
+            <a href="" class="mob-soc-link" width="16" height="16">
               <svg class="mob-soc-icon">
                 <use href="./images/icons.svg#icon-linkedin"></use>
               </svg>
@@ -122,7 +122,26 @@
 
     <main>
       <!--Hero section-->
- <section class="hero">
+ <section class="hero"> 
+  <picture>
+                <!-- Desctop -->
+                <source
+                media="(min-width: 768px)"
+                srcset="
+                ./images/hero-desc.1x.jpg   1x"/>
+                <!-- Tablet -->
+                <source
+                media="(min-width: 1158px)"
+                srcset="
+                ./images/hero-tabl.1x.jpg"/>                
+                <!-- Mobile -->
+                <source
+                media="(min-width: 768px)"
+                srcset="
+                ./images/hero-mob.1x.jpg  1x"/>
+              
+    </picture>
+      
         <div class="hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button
