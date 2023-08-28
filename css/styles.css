@@ -534,14 +534,8 @@ screen and (min-resolution: 2dppx)  {
 }
 
 @media screen and (min-width: 768px) {
-.indicators-section-list {
-  display: flex;
-  width: 768px;
-  padding-top: 72px;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 96px;
-}  
+
+  
 .indicators-list-caption {
   width: 264px;
   height: 40px;
@@ -557,7 +551,11 @@ screen and (min-resolution: 2dppx)  {
       padding: 120px 0;
     }
  .indicators-list {
+  display: flex;
    gap: 24px;
+ }
+ .indicators-item {
+
  }
 .indicators-icon-list {
   width: calc((100% - 72px) / 4);
