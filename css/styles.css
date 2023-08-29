@@ -825,10 +825,20 @@ margin-bottom: 72px;
   height: 664px;    
   padding: 0 16px;
   margin: 0 auto;
+  align-items: center;
+  justify-content: center;  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+  
 }
 
 .footer-logo-text {
   margin-right: 120px;
+  margin-top: 18px;
+  width: 168px;
+  height: 112px;
+  
 }
 
 .footer-logo-link {
@@ -842,8 +852,8 @@ margin-bottom: 72px;
   list-style: none;
   line-height: 1.17;
   background-color: #2e2f42;
-  margin-top: 98px;
- 
+  margin-top: 98px;  
+  
 }
 
 .footer-logo-dark {
@@ -883,12 +893,16 @@ margin-bottom: 72px;
   color: #ffffff;
   margin-top: 72px;
   margin-bottom: 16px;
+  align-items: center;
+  justify-content: center;
 
 }
 
 .footer-list {
   display: flex;
   gap: 16px;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-item-link { 
@@ -972,8 +986,7 @@ margin-bottom: 72px;
   font-size: 12px;
   font-weight: 400;
   line-height: 2;
-  letter-spacing: 0.04em;
-  
+  letter-spacing: 0.04em;  
 }
 
 .btn-accent {
@@ -1009,9 +1022,7 @@ margin-bottom: 72px;
    display: block;
    text-align: center;
   }
-  .footer-form-input {
-    width: 100%;
-  }
+  
 }
 
 @media screen and (min-width: 768px) {
