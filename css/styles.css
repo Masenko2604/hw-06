@@ -420,7 +420,7 @@ text-transform: capitalize;
 /* Hero */
 
 .hero {
-  width: 428px;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
   padding: 112px 0;
