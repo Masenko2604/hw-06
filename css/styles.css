@@ -442,7 +442,7 @@ screen and (min-resolution: 2dppx)  {
   .hero-container {
     width: 428px;
     display: flex;
-    flex-direction: column;
+    text-align: center;
     justify-content: center;
     align-content: center;
     
@@ -538,8 +538,7 @@ screen and (min-resolution: 2dppx)  {
   
 }
 .container-indscators {
-  max-width: 428px;
-  min-width: 320px;
+  max-width: 100%;  
   padding: 0 16px;
   margin: 0 auto;
   
@@ -549,6 +548,7 @@ screen and (min-resolution: 2dppx)  {
   display: flex;  
   flex-direction: column; 
   text-align: center;
+  gap: 72px;
 }
 .indicators-list-caption {
   color: var(--navyblue, #2E2F42);
@@ -575,14 +575,24 @@ screen and (min-resolution: 2dppx)  {
 }
 
 @media screen and (min-width: 768px) {
+.indicators-item {
+  width: calc((100%-24px) / 2);
 
+}
   
 .indicators-list-caption {
-  width: 264px;
-  height: 40px;
+  display: flex;  
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
 }
 .indicators-list-text {
-  width: 356px;
+  color: var(--slate, #434455); 
+  
+  
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
   height: 72px;
 }    
 }
