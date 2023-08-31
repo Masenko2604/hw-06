@@ -451,8 +451,7 @@ screen and (min-resolution: 2dppx)  {
   align-content: center;
   flex-direction: column;
   justify-content: flex-end;
-  align-content: center;
-  flex-wrap: wrap;
+  align-content: center;  
   align-items: center;
   }                                 
   
@@ -505,15 +504,28 @@ screen and (min-resolution: 2dppx)  {
             rgba(46, 47, 66, 0.7)),
           url(../images/hero-tabl.2x.jpg);
       } 
+.hero-container {
+  max-width: 100%; 
+  text-align: center;
+  display: block;
+}
+
 .hero-title {
   margin: 0 auto 36px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin: 0 auto 36px;            
+  margin: 0 auto 36px; 
+  text-align: center;    
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 496px;
+  margin-bottom: 48px;          
 }
-    }
-
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -546,8 +558,7 @@ screen and (min-resolution: 2dppx)  {
 .container-indscators {
   max-width: 100%;  
   padding: 0 16px;
-  margin: 0 auto;
-  
+  margin: 0 auto; 
   
 }
 .indicators-list {
@@ -582,38 +593,32 @@ screen and (min-resolution: 2dppx)  {
 
 @media screen and (min-width: 768px) {
 .indicators-item {
-  width: calc((100%-24px) / 2);
-
-}
-  
-.indicators-list-caption {
-  display: flex;  
+  width: calc((100% - 24px) / 2);
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
-}
-.indicators-list-text {
-  color: var(--slate, #434455); 
-  
-  
+  gap: 8px;  
+}  
+
+.indicators-list-text {   
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  height: 72px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;   
 }    
 }
 
 @media screen and (min-width: 1158px) {
-  .indicators-section-list {
-      padding: 96px 0;
-    }
- .indicators-list {
-   gap: 24px;
-   display: flex;
-   
- }
-.indicators-icon-list {
-  width: calc((100% - 72px) / 4);
+.indicators-section-list {
+  padding: 120px 0;
+}
+  
+.indicators-list {
+  display: flex;
+  gap: 24px;
+}
+
+ 
+.indicators-icon-list {  
   display: flex;
   align-items: center;
   justify-content: center;
