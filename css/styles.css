@@ -531,11 +531,14 @@ screen and (min-resolution: 2dppx)  {
     }
   }
         /* Indicators */
+.indicators-section-list {
+  margin-top: 96px;
+}
 
 .container-indscators {
   max-width: 100%;  
   padding: 0 16px;
-  margin: 0 auto;   
+  margin: 0 auto;     
 }
 
 .indicators-list {
@@ -568,9 +571,6 @@ screen and (min-resolution: 2dppx)  {
 }
 
 @media screen and (min-width: 768px) {
-.indicators-section-list {
-  margin-top: 96px;
-}
 .indicators-item {
   width: calc((100% - 24px) / 2); 
 }  
@@ -1165,7 +1165,7 @@ text-align: left;
   left: 50%;
   opacity: 1;
   padding: 72px 24px 24px 24px;
-  width: 408px;
+  width: 392px;
   min-height: 584px;
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1359,6 +1359,11 @@ text-align: left;
 .button-modal-btn:hover,
 .button-modal-btn:focus {
   background-color: #404bbf;
+}
+@media screen and (min-width: 768px) {
+.modal {
+    width: 408px;
+}
 }
 
 /* Portfolio*/
