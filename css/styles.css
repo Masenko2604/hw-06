@@ -1127,7 +1127,7 @@ text-align: left;
   max-height: 312px;
   display: flex;  
   flex-shrink: 0;
-  flex-wrap: wrap;
+  
   }
 .footer-logo-text {
 margin-right: 120px;
@@ -1142,6 +1142,8 @@ margin-right: 120px;
 }
 .footer-form {
   flex-direction: row;
+  flex-wrap: wrap;
+    text-align: left;
 }
 .footer-form-input {
   margin-left: 80px;
