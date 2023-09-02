@@ -784,6 +784,18 @@ max-width: 584px;
   width: calc(100% - 24px) / 2;
 }
 }
+@media screen and (min-width: 768px) {
+  @media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {}
+
+  .team-list-img {
+    images: url(../images/team1@2x.img.jpg),
+    url(../images/team2@2x.img.jpg),
+    url(../images/team3@2x.img.jpg),
+    url(../images/team4@2x.img.jpg);   
+  }
+}
 
 @media screen and (min-width: 1158px) {
 
