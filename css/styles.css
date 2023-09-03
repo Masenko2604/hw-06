@@ -313,7 +313,7 @@ color: var(--ocean, #404BBF);
  flex-direction: column;
  gap: 40px;
  padding-bottom: 48px;
-list-style: none;
+ list-style: none;
 }
 .mob-contact-phone {
   color: var(--iris, #4D5AE5);   
@@ -339,6 +339,7 @@ list-style: none;
 .mob-soc-list { 
   display: flex;
   gap: 56px;
+  
 }
 
 .mob-soc-item {
