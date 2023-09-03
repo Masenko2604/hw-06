@@ -279,20 +279,20 @@ button {
   top: 24px;
   right: 24px;
 }
-.mob-contact {
-  margin-top: auto;
+.mob-contact-list {
+ margin-top: auto;
+ list-style: none;
 }
 .mob-nav-list {
 justify-content: center;
- display: flex; 
+display: flex; 
 flex-direction: column;
 gap: 40px;
 padding: 0;
-  margin: 0;
-  margin-bottom: 284px;
-  list-style: none;
+margin: 0;
+margin-bottom: 284px;
+list-style: none;
 }
-
 
 .mob-nav-link {
 color: var(--navyblue, #2E2F42);  
@@ -304,7 +304,7 @@ text-transform: capitalize;
     
 }
 .mob-link-studio {
-  color: var(--ocean, #404BBF);
+color: var(--ocean, #404BBF);
 }
 
 .mob-contact-link{
@@ -313,6 +313,7 @@ text-transform: capitalize;
  flex-direction: column;
  gap: 40px;
  padding-bottom: 48px;
+list-style: none;
 }
 .mob-contact-phone {
   color: var(--iris, #4D5AE5);   
@@ -321,7 +322,10 @@ text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize; 
- 
+  text-align: left;
+  font-style: normal;
+  list-style: none;
+
 }
 .mob-contact-email {
   color: var(--slate, #434455);   
@@ -329,6 +333,7 @@ text-transform: capitalize;
   font-weight: 500;
   line-height: 1.2; 
   letter-spacing: 0.02em;
+  list-style: none;
   
 }
 .mob-soc-list { 
@@ -338,7 +343,7 @@ text-transform: capitalize;
 
 .mob-soc-item {
   width: 40px;
-    height: 40px;
+  height: 40px;
 }
 
 .mob-soc-link {
@@ -680,7 +685,8 @@ height: 72px;
      /* Team card */
 
 .team-card-container {
-  display: flex;  
+  display: flex; 
+  padding-top: 96px; 
   padding-bottom: 96px;
   flex-direction: column;
   justify-content: center;
