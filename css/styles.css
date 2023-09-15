@@ -317,7 +317,7 @@ color: var(--ocean, #404BBF);
 }
 .mob-contact-phone {
   color: var(--iris, #4D5AE5);   
-  font-size: 36px; 
+  font-size: 24px; 
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -1266,7 +1266,7 @@ text-align: left;
   border-color: #4D5AE5;
 }
 
-.modal-form-input:focus+.modal-icon {
+.modal-form-input:focus {
   fill: #4D5AE5;
 }
 
@@ -1279,8 +1279,8 @@ text-align: left;
 }
 
 .modal-icon:hover,
-.modal-icon:hover:focus {
-  color: #4D5AE5;
+.modal-icon:focus {
+  fill: #4D5AE5;
 }
 
 .window-form-coment {
